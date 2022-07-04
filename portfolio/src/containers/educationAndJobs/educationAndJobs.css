@@ -1,0 +1,32 @@
+.educationAndJobs__parent__div {
+    background-color: #1d1d1d;
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+}
+
+.educationAndJobs__content {
+    margin-top: 130px;
+    margin-bottom: 130px;
+    display: flex;
+    flex-direction: column;
+    gap: 75px;
+}
+
+.educationAndJobs__content h1 {
+    margin: 0;
+    color: white;
+}
+
+.educationAndJobs__content__education {
+    margin: 0;
+    color: #13FF00;
+}
+
+.educationAndJobs__content__year {
+    color: white;
+}
+
+.educationAndJobs__content__schoolname {
+    color: #c1c1c1;
+}

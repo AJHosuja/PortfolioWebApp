@@ -1,0 +1,96 @@
+.projects__parent__div {
+    background-color: #161616;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    text-align: center;
+    align-items: center;
+}
+
+.projects__header {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.projects__header h1 {
+   color: white; 
+}
+
+.projects__header hr {
+    margin-top: -10px;
+    width: 80px;
+    height: 2px;
+    border: 0;
+    background: #13FF00;
+}
+
+.projects__projects {
+    display: flex;
+    gap: 100px;
+    margin-top: 50px;
+
+}
+
+.projects__projects__project {
+    border: 1px solid #252525;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    background-color: #252525;
+    text-align: left;
+}
+
+.projects__projects__project img {
+    border-radius: 10px 10px 0 0;
+    height: 350px;
+    width: 350px;
+}
+
+.projects__projects__project h3,p {
+    color: white;
+    padding-left: 10px;
+    margin: 10px 0 0 0;
+}
+
+.projects__projects__project__icon {
+    position: relative;
+    top: 2px;
+}
+
+.projects__projects__project__buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    padding: 0 10px 10px 10px;
+}
+
+.projects__projects__project__buttons__viewCode {
+    border: none;
+    background: none;
+    color: white;
+    padding-top: 10px;
+    font-size: 18px;
+
+}
+
+.projects__projects__project__buttons__live {
+
+    margin-top: 10px;
+    background-color: #13FF00;
+    color: black;
+    border: none;
+    height: 30px;
+    width: 170px;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: bolder;
+    font-family: 'Poppins', sans-serif;
+}
+
+.projects__projects__project__buttons__viewCode__icon {
+    position: relative;
+    top: 4px;
+}

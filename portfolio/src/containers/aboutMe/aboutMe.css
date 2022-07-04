@@ -1,0 +1,34 @@
+.aboutme__parent__div {
+    background-color: #161616;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.aboutme__content {
+    margin-top: 70px;
+    margin-bottom: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.aboutme__content { 
+    color: white;
+}
+
+.aboutme__content hr {
+    margin-top: -10px;
+    width: 80px;
+    height: 2px;
+    border: 0;
+    background: #13FF00;
+}
+
+.aboutme__content h3 {
+    max-width: 700px;
+}
+
+.aboutme__content span {
+    color: #13FF00;
+}

@@ -1,0 +1,11 @@
+.footer__parent__div {
+    display: flex;
+    justify-content: center;
+    background-color: #202020;
+    align-items: center;
+    height: 60px;
+}
+
+.footer__parent__div p {
+    color: #BFBFBF;
+}

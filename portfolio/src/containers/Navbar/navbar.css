@@ -1,0 +1,15 @@
+.navbar__parent__div {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.navbar__parent__div h2 {
+    color: #13FF00;
+}
+
+.position {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+}

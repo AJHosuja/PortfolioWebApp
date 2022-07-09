@@ -1,15 +1,27 @@
-.navbar__parent__div {
+ .navbar__parent__div {
     display: flex;
     justify-content: center;
     gap: 30px;
 }
 
-.navbar__parent__div h2 {
-    color: #13FF00;
+.navbar__parent__div h2  {
+    color: white;
+    transform: 0,3s;
+}
+
+.not-active-class {
+    color: white;
 }
 
 .position {
-    position: absolute;
+    position: fixed;
     left: 50%;
     transform: translate(-50%, 0);
+} 
+
+.active {
+    color: #13FF00;
+    border-bottom: 3px solid #13FF00;
+    border-width: 50%;
 }
+

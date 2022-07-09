@@ -47,6 +47,12 @@
     font-size: 18px;
     font-weight: bolder;
     font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.home__content__div_button:hover {
+    background-color: #ffffff;
 }
 
 .button__icon {
@@ -66,4 +72,10 @@
     width: 60px;
     height: 60px;
     border-radius: 200px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.home__content__link__icons__button:hover {
+    background-color: #8F8F8F;
 }

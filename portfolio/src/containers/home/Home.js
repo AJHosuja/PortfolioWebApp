@@ -11,7 +11,7 @@ import { BsLinkedin } from "react-icons/bs";
 
 const Home = () => {
   return (
-    <div className="home__parent__div">
+    <div className="home__parent__div" id="home">
       <div className="home__content__div">
         <h1 className="home__content__name">AJ VIRRANKARI</h1>
         <hr />
@@ -28,13 +28,19 @@ const Home = () => {
         <div className="home__content__link__icons">
           <IconContext.Provider value={{ color: "white", size: "2.5rem" }}>
             <button className="home__content__link__icons__button">
-              <AiOutlineInstagram />
+              <a href="https://www.instagram.com/anttiju/">
+                <AiOutlineInstagram />
+              </a>
             </button>
             <button className="home__content__link__icons__button">
-              <AiOutlineGithub />
+              <a href="https://github.com/AJHosuja">
+                <AiOutlineGithub />
+              </a>
             </button>
             <button className="home__content__link__icons__button">
-              <BsLinkedin size="2rem" />
+              <a href="https://www.linkedin.com/in/antti-jussi-virrankari-971595220/">
+                <BsLinkedin size="2rem" />
+              </a>
             </button>
           </IconContext.Provider>
         </div>

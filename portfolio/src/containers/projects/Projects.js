@@ -4,7 +4,7 @@ import { FaReact, FaLongArrowAltRight } from "react-icons/fa";
 
 const Projects = () => {
   return (
-    <div className="projects__parent__div">
+    <div className="projects__parent__div" id="projects">
       <div className="projects__header">
         <h1>PROJECTS</h1>
         <hr />

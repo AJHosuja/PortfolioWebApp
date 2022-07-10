@@ -1,5 +1,5 @@
 .home__parent__div {
-    background-image: url(./Untitled-1.png);
+    background-image: url(./background.png);
     /* Full height */
     height: 100vh; 
     /* Center and scale the image nicely */
@@ -13,6 +13,10 @@
 
 .home__content__div {
     flex: 0.7;
+}
+
+.home__content__div p {
+    margin-left: -9px;
 }
 
 .home__content__header {
@@ -37,7 +41,7 @@
 }
 
 .home__content__div_button {
-    margin-top: 10px;
+    margin-top: 20px;
     background-color: #13FF00;
     color: black;
     border: none;
@@ -62,7 +66,7 @@
 }
 
 .home__content__link__icons {
-    margin-top: 100px;
+    margin-top: 90px;
     display: flex;
     gap: 60px
 }
